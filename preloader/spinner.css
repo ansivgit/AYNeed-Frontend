@@ -1,14 +1,3 @@
-@keyframes spin {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
 .spinner {
   position: relative;
   width: 20px;
@@ -23,7 +12,7 @@
 }
 
 .spinner::before {
-  content: "";
+  content: '';
   position: absolute;
   top: -4px;
   width: 5px;
@@ -31,4 +20,15 @@
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: #047cac;
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
