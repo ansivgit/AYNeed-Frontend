@@ -13,6 +13,9 @@
   position: relative;
   width: 20px;
   height: 20px;
+  margin-top: 47vh;
+  margin-right: auto;
+  margin-left: auto;
   border: 2px solid #09bccf;
   border-radius: 50%;
   -webkit-animation: spin 1s linear infinite;
