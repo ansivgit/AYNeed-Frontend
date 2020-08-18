@@ -1,11 +1,22 @@
+@charset "UTF-8";
 .layout {
   display: flex;
+}
+
+.layout--register-entry {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .layout--main-page {
   --menu-desktop-width: 68px;
   --menu-desktop-width--open: 18.29rem;
   --menu-mobile-height: 50px;
+}
+
+.block {
+  outline: 1px solid steelblue;
 }
 
 .header--mobile {
@@ -33,9 +44,9 @@
   width: var(--menu-desktop-width);
 }
 
-/* класс для открытого бокового меню */
 .main-nav--open {
   width: var(--menu-desktop-width--open);
+  /* класс для открытого бокового меню */
 }
 
 @media (max-width: 480px) {

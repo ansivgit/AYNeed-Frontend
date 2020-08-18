@@ -3,11 +3,21 @@ $mobile-minW: 480px;
 .layout {
   display: flex;
 
+  &--register-entry {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
   &--main-page {
     --menu-desktop-width: 68px;
     --menu-desktop-width--open: 18.29rem;
     --menu-mobile-height: 50px;
   }
+}
+
+.block {
+  outline: 1px solid steelblue;
 }
 
 .header--mobile {
